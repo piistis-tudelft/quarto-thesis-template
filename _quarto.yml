@@ -4,8 +4,22 @@ project:
 
 book:
   title: "TU Delft Thesis Template"
-  author: "Norah Jones"
-  date: "3/26/2025"
+  search: true
+  repo-url: https://github.com/piistis-tudelft/quarto-thesis-template
+  repo-actions: [edit]
+  downloads: [pdf, epub]
+  author:
+    - name: Patrick Altmeyer
+      affiliations:
+        - name: Delft University of Technology
+          department: EEMCS
+          id: 1
+      email: p.altmeyer@tudelft.nl
+      url: https://www.patalt.org/
+    - name: Andrew Demetriou
+      affiliations:
+        - ref: 1
+  date: today
   chapters:
     - index.qmd
     - intro.qmd
@@ -21,6 +35,7 @@ format:
     theme:
       - cosmo
       - brand
+  epub: default
 
 
 
