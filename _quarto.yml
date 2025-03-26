@@ -17,10 +17,10 @@ bibliography: references.bib
 format:
   tudelft-pdf:
     keep-tex: true
-  # html:
-  #   theme:
-  #     - cosmo
-  #     - brand
+  html:
+    theme:
+      - cosmo
+      - brand
 
 
 
