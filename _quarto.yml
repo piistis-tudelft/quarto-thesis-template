@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "TU Delft Thesis Template"
+  author: "Norah Jones"
+  date: "3/26/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  tudelft-pdf:
+    keep-tex: true
+  # html:
+  #   theme:
+  #     - cosmo
+  #     - brand
+
+
+
